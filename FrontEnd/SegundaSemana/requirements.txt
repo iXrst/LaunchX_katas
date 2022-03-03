@@ -1,0 +1,10 @@
+For running the project:
+- Xampp
+- VSCode
+- Web Browser (Chrome, Firefox, etc)
+
+To have access to the products, along with their information (stock, images, description), you need a Reflow account: "https://reflowhq.com/". And create your own store, with your products.
+
+Reflow gives you the ability to view your products and orders, as well as provide payment methods.
+
+
