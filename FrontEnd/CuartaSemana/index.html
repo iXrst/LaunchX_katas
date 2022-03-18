@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="shortcut icon" href="./assets/icon/tabicon.ico" type="image/x-icon" />
+    <title>Pokédex</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <div class="header-container">
+            <div class="header">
+                <h1>Pokédex</h1>
+            </div>
+            <div class="form">
+                <input placeholder="Ingrese un Pókemon o un número" id="pokemon" , type="text" />
+                <button onClick="getData()" id="button">Buscar</button>
+            </div>
+        </div>
+        <div class="card" id="card">
+            <div class="card-header">
+                <h2 id="name">Pokemon not found</h2>
+                <h2 id="number">-</h2>
+                <img src="./assets/image/ash_sad.jpg" id="img" />
+            </div>
+            <div class="card-body">
+                <div class="title-info">
+                    <ul>
+                        <li>TYPE</li>
+                        <li>WEIGHT</li>
+                        <li>HEIGHT</li>
+                        <li>MOVE</li>
+                        <li>HEALTH POINTS</li>
+                        <li>ATTACK</li>
+                        <li>DEFENSE</li>
+                        <li>SPECIAL ATTACK</li>
+                        <li>SPECIAL DEFENSE</li>
+                        <li>SPEED</li>
+                    </ul>
+                </div>
+                <hr />
+                <div class="list-info">
+                    <ul>
+                        <li>
+                            <span id="type">-</span>
+                        </li>
+                        <li>
+                            <span id="weight">-</span>
+                        </li>
+                        <li>
+                            <span id="height">-</span>
+                        </li>
+                        <li>
+                            <span id="move">-</span>
+                        </li>
+                        <li>
+                            <span id="hp">-</span>
+                        </li>
+                        <li>
+                            <span id="atk">-</span>
+                        </li>
+                        <li>
+                            <span id="def">-</span>
+                        </li>
+                        <li>
+                            <span id="satk">-</span>
+                        </li>
+                        <li>
+                            <span id="sdef">-</span>
+                        </li>
+                        <li>
+                            <span id="spd">-</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
